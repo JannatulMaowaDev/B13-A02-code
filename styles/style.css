@@ -152,6 +152,13 @@ width: 100%;
    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
   padding:12px 18px 12px 18px;
   border-radius: 999px;
+  cursor: pointer;
+  animation: pulse 1s infinite alternate;
+  box-shadow: 0 4px 10px rgba(205, 196, 196, 0.3);
+}
+@keyframes pulse {
+  from { transform: scale(1); box-shadow: 0 4px 10px rgba(211, 202, 202, 0.3);}
+  to   { transform: scale(1.1); box-shadow: 0 8px 10px rgba(215, 206, 206, 0.4);}
 }
 .hero1-btn button {
   background-color: transparent;
