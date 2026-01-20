@@ -361,6 +361,57 @@ color:  rgba(0, 255, 136, 1);
 font-weight: 600;
 }
 
+/* host section  */
+
+.host-section{
+  padding-top: 5%;
+   max-width: 75%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+.host-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+padding: 4%;
+}
+.host-title h2{
+color:  rgba(255, 255, 255, 1);
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+padding-bottom: 5%;
+}
+.host-text h2{
+color:  rgba(255, 255, 255, 1);
+font-size: 32px;
+font-weight: 700;
+padding-bottom: 3%;
+
+}
+.host-text p{
+color:  rgba(255, 255, 255, 1);
+font-weight: 400;
+opacity: 0.6;
+padding-bottom: 3%;
+}
+.icon{
+ display: flex;
+ flex-direction: row;
+ gap: 4%;
+}
+.icon img{
+  padding: 5px;
+  box-sizing: border-box;
+border: 1px solid rgba(83, 60, 114, 1);
+border-radius: 50%;
+}
+
+
 
 
 
@@ -438,17 +489,37 @@ font-size: 2rem;
   flex-direction: column;
   gap: 12px;
 }
-
-
 .feature-title h2{
 color:  rgba(255, 255, 255, 1);
 font-size: 32px;
 font-weight: 700;
 }
-
 .text h2{
   font-size: 20px;
 }
+ /* host section  */
+.host-content{
+  flex-direction: column;
+}
+.host-title h2{
+  font-size: 32px;
+font-weight: 700;
+}
+.host-text h2{
+font-size: 24px;
+font-weight: 700;
+}
+.host-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
 
 
 
